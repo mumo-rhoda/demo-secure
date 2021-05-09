@@ -1,0 +1,23 @@
+# Learning objectives:
+
+   ## After completing this module, you'll be able to describe the benefits and usage of:
+
+        Azure subscriptions and management groups.
+        Azure resources, resource groups, and Azure Resource Manager.
+        Azure regions, region pairs, and availability zones.
+
+
+1. ## Resources: 
+    are instances of services that    you    create, like virtual machines, storage, or SQL databases.
+    A manageable item that's available through Azure. Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are examples of resources
+2. ## Resource groups: 
+    Resources are combined into resource groups, which act as a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.
+    A container that holds related resources for an Azure solution. The resource group includes resources that you want to manage as a group. You decide which resources belong in a resource group based on what makes the most sense for your organization.
+3. ## Subscriptions: 
+    A subscription groups together user accounts and the resources that have been created by those user accounts. For each subscription, there are limits or quotas on the amount of resources that you can create and use. Organizations can use subscriptions to manage costs and the resources that are created by users, teams, or projects.
+4. ## Management groups:
+     These groups help you manage access, policy, and compliance for multiple subscriptions. All subscriptions in a management group automatically inherit the conditions applied to the management group.
+
+
+
+*** https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/resources-resource-manager
